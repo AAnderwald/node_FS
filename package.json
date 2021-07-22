@@ -1,0 +1,20 @@
+{
+  "name": "node_fs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Exercise:\r Create a new project folder called node_fs\r Inside of node_fs, create the 4 following js files:\r createFile.js\r readFile.js\r updateFile.js\r deleteFile.js\r Inside of createFile.js:\r Require the fs module\r Implement the fs.writeFile() function, creating a txt file called HelloWorld.txt, with Hello, World! inside\r Use the async version\r Run node createFile.js to create the file\r Inside of readFile.js:\r Require the fs module\r Implement the fs.readFile()\r You can either read the contents of the HelloWorld.txt file, or any other file you create in your project\r Run node readFile.js to read the file to the console\r Inside of updateFile.js\r Require the fs module\r Using the appendFile() function, append some text to the end of your HelloWorld.txt\r Run node update.js\r Inside of deleteFile.js\r Require the fs module\r Implement the fs.unlink()\r Run node deleteFile.js",
+  "main": "fs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAnderwald/node_FS.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAnderwald/node_FS/issues"
+  },
+  "homepage": "https://github.com/AAnderwald/node_FS#readme"
+}
