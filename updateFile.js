@@ -11,3 +11,5 @@ fs.appendFile("HelloWorld.txt", add_onWords, (error) =>
     }
     console.log("this was appended.");
 } );
+
+// or take line 3 out and change line 5 to: fs.appendFile("HelloWorld.txt", "Hello Word! If you want to survive out here, you've got to know where your towel is", (error) =>

@@ -62,4 +62,11 @@ import fs from "fs";
 //     }
 //     console.log(" This worked?!");
 // });
+// fs.writeFile("server.js", "this the server page", (error) => {
+//     if (error) {
+//         console.log(error);
+//         return;
+//     }
+//     console.log(" This worked?!");
+// });
 

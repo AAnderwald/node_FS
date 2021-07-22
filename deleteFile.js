@@ -1,6 +1,6 @@
 import fs from "fs";
 
-fs.unlink ("HelloWorld.txt", (error) =>
+fs.unlink("HelloWorld.txt", (error) =>
 {
     if(error)
     {
